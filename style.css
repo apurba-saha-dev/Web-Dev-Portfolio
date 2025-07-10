@@ -5,7 +5,11 @@
   font-variation-settings:
     "wdth" 100;
 }
-.main_header{
+body{
+    background-color: #FFF8F3;
+
+}
+.top_header{
     background-image: url("../images/developer.png"), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -34,6 +38,11 @@
     border: none;
     border-radius: 5px;
 }
+.btn_down{
+    font-size: 20px;
+    font-weight: 700;
+
+}
 .nav_head ul button{
     font-size: 20px;
     font-weight: bold;
@@ -54,9 +63,6 @@
 .nav_head ul li a{
     text-decoration: none;
 }
-
-/* ------------------------------------------------------------------------------------------------------------- */
-
 #id_h4{
     font-size: 45px;
     font-weight: 600;
@@ -82,4 +88,49 @@
     height: 387px;
     width: 585px;
     margin-left: 236px;
+}
+/* Header Section Done */
+/* Main Section Starts */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_sec{
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align:center;
+    border: 1px solid black;
+    margin-top: 130px;
+}
+.main_div{
+    background-color: white;
+    border: 1px solid black;
+
+}
+.secondary_bg{
+    background-color: #FFF8F3;
+}
+.common_text{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.common_des{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+.item_title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.item_description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
 }
