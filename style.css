@@ -134,3 +134,34 @@ main{
     font-weight: 700;
     color: #474747;
 }
+
+.skills_sec{
+    margin-top: 130px;
+    text-align: center;
+}
+.skills_container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 24px
+;
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.new_des{
+    margin-bottom: 50px;
+}
+.skill_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.skill_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
