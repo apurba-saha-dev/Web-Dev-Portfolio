@@ -213,5 +213,45 @@ main{
     color: white;
     margin-top: 50px;
     text-align: center;
-    
+    margin-bottom: 113px;
 }
+/* Resume Section Ends ---------------------------------------------------------------------------------*/
+/* Footer Section Starts -------------------------------------------------------------------------------*/
+footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer_main_div{
+    display: flex;
+    margin: 0px auto;
+}
+.footer_column{
+    width: 50%;
+    display: block;
+}
+.footer_des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    max-width: 562px;
+    margin-bottom: 30px;
+}
+.footer_img{
+    max-width: 120px;
+    max-height: 24px;
+    justify-content: space-evenly;
+}
+.common_box{
+    height: 67px;
+    width: 461px;
+    border-radius: 5px;
+    gap: 24px;
+    background-color: white;
+    padding: 10px 30px;
+    margin-bottom: 24px;
+    border: none;
+}
+.btn_foot{
+    margin-bottom: 130px;
+}
+
